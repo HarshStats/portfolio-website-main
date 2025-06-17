@@ -160,6 +160,8 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+
   },
   {
     title: "NLP Project: 2",
@@ -168,6 +170,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
   },
   {
     title: "NLP Project: 3",
@@ -176,6 +179,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
   },
   {
     title: "NLP Project: 4",
@@ -184,6 +188,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
   },
   {
     title: "NLP Project: 5",
@@ -192,6 +197,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
   },
     {
     title: "Prediction Models Projects : 1",
