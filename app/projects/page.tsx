@@ -36,7 +36,8 @@ export default function ProjectsPage({ searchParams }: { searchParams?: { page?:
   const totalPages = Math.ceil(filteredProjects.length / PROJECTS_PER_PAGE);
   const startIdx = (page - 1) * PROJECTS_PER_PAGE;
   const endIdx = startIdx + PROJECTS_PER_PAGE;
-  const projectsToShow = filteredProjects.slice(startIdx, endIdx);
+  const projectsToShow =
+    filter === "all" ? filteredProjects : filteredProjects.slice(startIdx, endIdx);
 
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
@@ -70,17 +71,19 @@ export default function ProjectsPage({ searchParams }: { searchParams?: { page?:
         ))}
       </div>
       {/* Pagination Controls */}
-      <div className="flex justify-center gap-4 mt-8">
-        {Array.from({ length: totalPages }).map((_, i) => (
-          <Link
-            key={i}
-            href={`/projects?page=${i + 1}`}
-            className={`px-3 py-1 rounded ${page === i + 1 ? "bg-blue-600 text-white" : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100"}`}
-          >
-            {i + 1}
-          </Link>
-        ))}
-      </div>
+      {filter !== "all" && (
+        <div className="flex justify-center gap-4 mt-8">
+          {Array.from({ length: totalPages }).map((_, i) => (
+            <Link
+              key={i}
+              href={`/projects?page=${i + 1}`}
+              className={`px-3 py-1 rounded ${page === i + 1 ? "bg-blue-600 text-white" : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100"}`}
+            >
+              {i + 1}
+            </Link>
+          ))}
+        </div>
+      )}
     </main>
   );
 }

@@ -54,17 +54,98 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+    title: "University Case Study 1: World Value Survey",
+    description:
+      "This repository demonstrates the application of Bayesian data analysis techniques using both R and Jupyter Notebooks. It covers Bayesian modeling, inference, and interpretation through real-world datasets and case studies.",
+    tags: ["R", "Jupyter Notebook", "Bayesian Analysis", "Statistics", "Data Science"],
+    imageUrl: corpcomment,
+    githubUrl: "https://github.com/HarshStats/Case-Study-Applied-Bayesian-Data-Analysis",
+    projectUrl: "https://github.com/HarshStats/Case-Study-Applied-Bayesian-Data-Analysis",
+  },
+      {
+    title: "University Case Study 2: Eye-Tracking Fixations Data Analysis",
+    description:
+      "Test the hypothesis that fixation durations typically decrease with age during childhood, but increase later on in life. Investigate whether there are any systematic patterns in fixation durations over the course of the experiment—do fixations become shorter or longer over time? Do they become shorter first and longer later on?",
+    tags: ["Eye Tracking", "Experimental Psychology", "Statistical Analysis", "Data Science"],
+    imageUrl: corpcomment,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },
   {
-    title: "5+ University Projects",
+    title: "University Case Study 3: Demographic Data Analysis Project",
+    description:
+      "This project analyzes global demographic trends using data from the International Database (IDB, 2024). The focus is on life expectancy and under-five mortality rates across 227 countries, comparing data from 2004 and 2024. The analysis uses TeX to present comprehensive statistical insights and visualizations.",
+    tags: ["TeX", "Statistical Analysis", "Data Visualization", "Demography"],
+    imageUrl: corpcomment,
+    githubUrl: "https://github.com/HarshStats/Case-Study-1-Demographic-Data-Analysis-Project",
+    projectUrl: "https://github.com/HarshStats/Case-Study-1-Demographic-Data-Analysis-Project",
+  },
+  {
+    title: "University Case Study 4: Berlin Marathon Performance Analysis",
+    description:
+      "This report investigates age-related differences in finish times for female participants in the Berlin Marathon. The analysis spans six age groups and applies rigorous statistical methods using Jupyter Notebooks to uncover patterns in marathon performance.",
+    tags: ["Jupyter Notebook", "Statistical Analysis", "Sports Analytics", "Data Science"],
+    imageUrl: corpcomment,
+    githubUrl: "https://github.com/HarshStats/Case-Study-2-Berlin-Marathon-Performance-Analysis",
+    projectUrl: "https://github.com/HarshStats/Case-Study-2-Berlin-Marathon-Performance-Analysis",
+  },
+    {
+    title: "University Case Study 5: Title",
     description: 
       "Check out my University projects, that include various regression, classification, and Bayesian models case studies.",
     tags: ["Python", "R", "SQL", "Machine Learning", "Bayesian Data Analysis"],
     imageUrl: corpcomment,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats", // or your live/demo/project link
+    projectUrl: "https://github.com/HarshStats", 
   },
-  {
-    title: "5+ Deep Learning Projects",
+    {
+    title: "University Seminar Block : Sports Analytics using BART",
+    description: 
+      "Check out my University projects, that include various regression, classification, and Bayesian models case studies.",
+    tags: ["Python", "R", "SQL", "Machine Learning", "Bayesian Data Analysis"],
+    imageUrl: corpcomment,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats", 
+  },
+      {
+    title: "Deep Learning Project: 1",
+    description:
+      "A collection of deep learning projects, including image classification, object detection, and generative models.",
+    tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
+    imageUrl: NN,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },
+        {
+    title: "Deep Learning Project: 2",
+    description:
+      "A collection of deep learning projects, including image classification, object detection, and generative models.",
+    tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
+    imageUrl: NN,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },
+        {
+    title: "Deep Learning Project: 3",
+    description:
+      "A collection of deep learning projects, including image classification, object detection, and generative models.",
+    tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
+    imageUrl: NN,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },
+        {
+    title: "Deep Learning Project: 4",
+    description:
+      "A collection of deep learning projects, including image classification, object detection, and generative models.",
+    tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
+    imageUrl: NN,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },
+          {
+    title: "Deep Learning Project: 5",
     description:
       "A collection of deep learning projects, including image classification, object detection, and generative models.",
     tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
@@ -73,16 +154,96 @@ export const projectsData = [
     projectUrl: "https://github.com/HarshStats",
   },
   {
-    title: "5+ NLP Projects", 
+    title: "NLP Project: 1",
     description:
       "A collection of NLP projects, including text classification, sentiment analysis, and named entity recognition.",
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
   },
   {
-    title: "5+ Prediction Models Projects",
+    title: "NLP Project: 2",
+    description:
+      "A collection of NLP projects, including text classification, sentiment analysis, and named entity recognition.",
+    tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
+    imageUrl: NLP,
+    githubUrl: "https://github.com/HarshStats",
+  },
+  {
+    title: "NLP Project: 3",
+    description:
+      "A collection of NLP projects, including text classification, sentiment analysis, and named entity recognition.",
+    tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
+    imageUrl: NLP,
+    githubUrl: "https://github.com/HarshStats",
+  },
+  {
+    title: "NLP Project: 4",
+    description:
+      "A collection of NLP projects, including text classification, sentiment analysis, and named entity recognition.",
+    tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
+    imageUrl: NLP,
+    githubUrl: "https://github.com/HarshStats",
+  },
+  {
+    title: "NLP Project: 5",
+    description:
+      "A collection of NLP projects, including text classification, sentiment analysis, and named entity recognition.",
+    tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
+    imageUrl: NLP,
+    githubUrl: "https://github.com/HarshStats",
+  },
+    {
+    title: "Prediction Models Projects : 1",
+    description:
+      "A collection of prediction models projects, including time series forecasting and regression analysis.",
+    tags: [
+      "Time Series Forecasting",
+      "Regression Analysis",,
+      "Customer Churn Prediction",
+    ],
+    imageUrl: Prediction,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },
+      {
+    title: "Prediction Models Projects : 2",
+    description:
+      "A collection of prediction models projects, including time series forecasting and regression analysis.",
+    tags: [
+      "Time Series Forecasting",
+      "Regression Analysis",,
+      "Customer Churn Prediction",
+    ],
+    imageUrl: Prediction,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },    {
+    title: "Prediction Models Projects : 3",
+    description:
+      "A collection of prediction models projects, including time series forecasting and regression analysis.",
+    tags: [
+      "Time Series Forecasting",
+      "Regression Analysis",,
+      "Customer Churn Prediction",
+    ],
+    imageUrl: Prediction,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },    {
+    title: "Prediction Models Projects : 4",
+    description:
+      "A collection of prediction models projects, including time series forecasting and regression analysis.",
+    tags: [
+      "Time Series Forecasting",
+      "Regression Analysis",,
+      "Customer Churn Prediction",
+    ],
+    imageUrl: Prediction,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "https://github.com/HarshStats",
+  },    {
+    title: "Prediction Models Projects : 5",
     description:
       "A collection of prediction models projects, including time series forecasting and regression analysis.",
     tags: [
@@ -97,84 +258,63 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  // Programming Languages
-  "Python",
-  "R",
-  "SQL",
-
-  // Cloud & DevOps
-  "AWS",
-  "Microsoft Azure",
-  "Docker",
-  "CI/CD",
-  "GitHub Actions",
-  "Git",
-  "DagsHub",
-  "Apache Airflow",
-  "Astronomer",
-
-  // Machine Learning & AI
-  "Machine Learning",
-  "Deep Learning",
-  "Regression & Classification",
-  "Neural Networks",
-  "CNN",
-  "Model Evaluation",
-  "Model Optimization",
-  "Hyperparameter Tuning",
-  "Natural Language Processing (NLP)",
-  "Transformer Models",
-  "BERT",
-  "RoBERTa",
-  "Huggingface",
-  "Reinforcement Learning",
-  "Data Exploration",
-  "ETL",
-
-  // Model Deployment & MLOps
-  "MLOps",
-  "Flask",
-  "FastAPI",
-  "Streamlit",
-  "AWS SageMaker",
-  "TensorFlow Serving",
-  "DVC",
-  "MLflow",
-  "Model Monitoring",
-  "Model Deployment",
-  "Dockerization",
-  "Continuous Integration",
-  "Continuous Deployment",
-
-  // Data Visualization
-  "Tableau",
-  "Power BI",
-  "Matplotlib",
-  "Seaborn",
-  "Grafana",
-
-  // Databases & Data Engineering
-  "PostgreSQL",
-  "Athena",
-  "Glue",
-
-  // Tools & Libraries
-  "Jupyter Notebook",
-  "Pandas",
-  "NumPy",
-  "Scikit-learn",
-  "TensorFlow",
-  "PyTorch",
-  "VGG16",
-  "Excel",
-
-  // Other
-  "Project Management",
-  "Arduino",
-  "AutoML",
-  "Mathematical Foundations (Linear Algebra, Calculus, Probability)",
-  "Experiment Tracking",
-  "Data Version Control",
-  "Business Intelligence",
-  "Generative AI",
-] as const;
+  {
+    category: "Programming Languages",
+    skills: ["Python", "R", "SQL"],
+  },
+  {
+    category: "Data Exploration & ETL",
+    skills: [
+      "Data Exploration", "ETL"
+    ],
+  },
+  {
+    category: "Databases & Data Engineering",
+    skills: [
+      "PostgreSQL", "Athena", "Glue"
+    ],
+  },
+  {
+    category: "Machine Learning & AI",
+    skills: [
+      "Machine Learning", "Deep Learning", "Regression & Classification", "Neural Networks",
+      "CNN", "Model Evaluation", "Model Optimization", "Hyperparameter Tuning",
+      "Natural Language Processing (NLP)", "Transformer Models", "BERT", "RoBERTa",
+      "Huggingface", "Reinforcement Learning"
+    ],
+  },
+  {
+    category: "Model Deployment & MLOps",
+    skills: [
+      "MLOps", "Flask", "FastAPI", "Streamlit", "AWS SageMaker", "TensorFlow Serving",
+      "DVC", "MLflow", "Model Monitoring", "Model Deployment", "Dockerization",
+      "Continuous Integration", "Continuous Deployment"
+    ],
+  },
+  {
+    category: "Cloud & DevOps",
+    skills: [
+      "AWS", "Microsoft Azure", "Docker", "CI/CD", "GitHub Actions", "Git", "DagsHub",
+      "Apache Airflow", "Astronomer"
+    ],
+  },
+  {
+    category: "Data Visualization",
+    skills: [
+      "Tableau", "Power BI", "Matplotlib", "Seaborn", "Grafana"
+    ],
+  },
+  {
+    category: "Tools & Libraries",
+    skills: [
+      "Jupyter Notebook", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "VGG16", "Excel"
+    ],
+  },
+  {
+    category: "Other",
+    skills: [
+      "Project Management", "Arduino", "AutoML", "Mathematical Foundations (Linear Algebra, Calculus, Probability)",
+      "Experiment Tracking", "Data Version Control", "Business Intelligence", "Generative AI"
+    ],
+  },
+];
