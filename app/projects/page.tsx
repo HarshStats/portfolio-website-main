@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { projectsData } from "@/lib/data";
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
@@ -25,6 +26,7 @@ function getProjectCategory(title: string) {
 
 export default function ProjectsPage({ searchParams }: { searchParams?: { page?: string } }) {
   const [filter, setFilter] = useState("all");
+  const router = useRouter();
   const page = Number(searchParams?.page) || 1;
 
   // Filter projects
@@ -47,7 +49,10 @@ export default function ProjectsPage({ searchParams }: { searchParams?: { page?:
         {FILTERS.map((f) => (
           <button
             key={f.value}
-            onClick={() => setFilter(f.value)}
+            onClick={() => {
+              setFilter(f.value);
+              router.push("/projects"); // Reset to first page and remove ?page=2
+            }}
             className={`px-4 py-2 rounded-full border transition ${
               filter === f.value
                 ? "bg-blue-600 text-white border-blue-600"

@@ -61,7 +61,7 @@ export const projectsData = [
     tags: ["R", "Jupyter Notebook", "Bayesian Analysis", "Statistics", "Data Science"],
     imageUrl: corpcomment,
     githubUrl: "https://github.com/HarshStats/Case-Study-Applied-Bayesian-Data-Analysis",
-    projectUrl: "https://github.com/HarshStats/Case-Study-Applied-Bayesian-Data-Analysis",
+    projectUrl: "/projects/case-study-1",
   },
       {
     title: "University Case Study 2: Eye-Tracking Fixations Data Analysis",
@@ -70,7 +70,7 @@ export const projectsData = [
     tags: ["Eye Tracking", "Experimental Psychology", "Statistical Analysis", "Data Science"],
     imageUrl: corpcomment,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/case-study-2",
   },
   {
     title: "University Case Study 3: Demographic Data Analysis Project",
@@ -79,7 +79,7 @@ export const projectsData = [
     tags: ["TeX", "Statistical Analysis", "Data Visualization", "Demography"],
     imageUrl: corpcomment,
     githubUrl: "https://github.com/HarshStats/Case-Study-1-Demographic-Data-Analysis-Project",
-    projectUrl: "https://github.com/HarshStats/Case-Study-1-Demographic-Data-Analysis-Project",
+    projectUrl: "/projects/case-study-3",
   },
   {
     title: "University Case Study 4: Berlin Marathon Performance Analysis",
@@ -88,7 +88,7 @@ export const projectsData = [
     tags: ["Jupyter Notebook", "Statistical Analysis", "Sports Analytics", "Data Science"],
     imageUrl: corpcomment,
     githubUrl: "https://github.com/HarshStats/Case-Study-2-Berlin-Marathon-Performance-Analysis",
-    projectUrl: "https://github.com/HarshStats/Case-Study-2-Berlin-Marathon-Performance-Analysis",
+    projectUrl: "/projects/case-study-4",
   },
     {
     title: "University Case Study 5: Title",
@@ -97,7 +97,7 @@ export const projectsData = [
     tags: ["Python", "R", "SQL", "Machine Learning", "Bayesian Data Analysis"],
     imageUrl: corpcomment,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats", 
+    projectUrl: "/projects/case-study-5", 
   },
     {
     title: "University Seminar Block : Sports Analytics using BART",
@@ -106,7 +106,16 @@ export const projectsData = [
     tags: ["Python", "R", "SQL", "Machine Learning", "Bayesian Data Analysis"],
     imageUrl: corpcomment,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats", 
+    projectUrl: "/projects/case-study-7-seminar-block", 
+  },
+      {
+    title: "University Project Course : Applied Bayesian Analytics",
+    description: 
+      "Check out my University projects, that include various regression, classification, and Bayesian models case studies.",
+    tags: ["Python", "R", "SQL", "Machine Learning", "Bayesian Data Analysis"],
+    imageUrl: corpcomment,
+    githubUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/case-study-6-applied-bayesian-analytics",
   },
       {
     title: "Deep Learning Project: 1",
@@ -115,7 +124,7 @@ export const projectsData = [
     tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
     imageUrl: NN,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/deep-learning-1",
   },
         {
     title: "Deep Learning Project: 2",
@@ -124,7 +133,7 @@ export const projectsData = [
     tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
     imageUrl: NN,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/deep-learning-2",
   },
         {
     title: "Deep Learning Project: 3",
@@ -133,7 +142,7 @@ export const projectsData = [
     tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
     imageUrl: NN,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/deep-learning-3",
   },
         {
     title: "Deep Learning Project: 4",
@@ -142,7 +151,7 @@ export const projectsData = [
     tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
     imageUrl: NN,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/deep-learning-4",
   },
           {
     title: "Deep Learning Project: 5",
@@ -151,7 +160,7 @@ export const projectsData = [
     tags: ["TensorFlow", "PyTorch", "Neural Networks", "Computer Vision"],
     imageUrl: NN,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/deep-learning-5",
   },
   {
     title: "NLP Project: 1",
@@ -160,7 +169,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/nlp-1",
 
   },
   {
@@ -170,7 +179,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/nlp-2",
   },
   {
     title: "NLP Project: 3",
@@ -179,7 +188,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/nlp-3",
   },
   {
     title: "NLP Project: 4",
@@ -188,7 +197,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/nlp-4",
   },
   {
     title: "NLP Project: 5",
@@ -197,7 +206,7 @@ export const projectsData = [
     tags: ["Text Classification", "Sentiment Analysis", "Transformer Models", "BERT"],
     imageUrl: NLP,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/nlp-5",
   },
     {
     title: "Prediction Models Projects : 1",
@@ -210,7 +219,7 @@ export const projectsData = [
     ],
     imageUrl: Prediction,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/prediction-1",
   },
       {
     title: "Prediction Models Projects : 2",
@@ -223,8 +232,9 @@ export const projectsData = [
     ],
     imageUrl: Prediction,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
-  },    {
+    projectUrl: "/projects/prediction-2",
+  },
+  {
     title: "Prediction Models Projects : 3",
     description:
       "A collection of prediction models projects, including time series forecasting and regression analysis.",
@@ -235,8 +245,9 @@ export const projectsData = [
     ],
     imageUrl: Prediction,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
-  },    {
+    projectUrl: "/projects/prediction-3",
+  },
+  {
     title: "Prediction Models Projects : 4",
     description:
       "A collection of prediction models projects, including time series forecasting and regression analysis.",
@@ -247,8 +258,9 @@ export const projectsData = [
     ],
     imageUrl: Prediction,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
-  },    {
+    projectUrl: "/projects/prediction-4",
+  },
+  {
     title: "Prediction Models Projects : 5",
     description:
       "A collection of prediction models projects, including time series forecasting and regression analysis.",
@@ -259,7 +271,7 @@ export const projectsData = [
     ],
     imageUrl: Prediction,
     githubUrl: "https://github.com/HarshStats",
-    projectUrl: "https://github.com/HarshStats",
+    projectUrl: "/projects/prediction-5",
   },
 ] as const;
 
